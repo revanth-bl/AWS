@@ -1,0 +1,133 @@
+# 🔐 AWS IAM Hands-On Project
+
+## 📌 Overview
+
+This project demonstrates hands-on implementation of AWS Identity and Access Management (IAM).
+
+The objective of this project was to understand how authentication and authorization work in AWS and how IAM helps secure cloud resources through users, groups, roles, and policies.
+
+---
+
+# 🚀 Services Used
+
+* AWS IAM
+* AWS Management Console
+* AWS S3 (for permission testing)
+
+---
+
+# 📚 Concepts Learned
+
+<details>
+  <summary>🔑 Authentication vs Authorization</summary>
+
+* Authentication verifies the identity of a user.
+* Authorization controls what actions the user can perform.
+
+Both are critical for securing AWS resources.
+
+</details>
+
+<details>
+  <summary>👤 IAM Users</summary>
+
+* Created IAM users
+* Configured console access
+* Enabled password reset on first login
+* Tested secure login access
+
+</details>
+
+<details>
+  <summary>👥 IAM Groups</summary>
+
+* Created groups for easier permission management
+* Added users into groups
+* Managed permissions at group level instead of individual users
+
+</details>
+
+<details>
+  <summary>📜 IAM Policies</summary>
+
+* Attached AWS managed policies
+* Explored custom policies using JSON format
+* Learned:
+
+  * Effect
+  * Action
+  * Resource
+
+</details>
+
+<details>
+  <summary>🛡️ AWS Security Best Practices</summary>
+
+* Avoid using root account for daily tasks
+* Follow least privilege access
+* Use groups for scalable permission management
+* Control access carefully to prevent accidental changes
+
+</details>
+
+---
+
+# 🛠️ Tasks Performed
+
+✅ Logged into AWS Console
+✅ Opened IAM Dashboard
+✅ Created IAM Users
+✅ Configured Console Access
+✅ Created IAM Groups
+✅ Attached Policies
+✅ Tested User Permissions
+✅ Explored Policy JSON Structure
+
+---
+
+# 📷 Project Screenshots
+
+## IAM User Creation
+
+![IAM User](screenshots/01-create-user.png)
+
+---
+
+## Permission Configuration
+
+![Permissions](screenshots/02-set-permissions.png)
+
+---
+
+## IAM Group Setup
+
+![IAM Groups](screenshots/03-create-group.png)
+
+---
+
+## Policy Attachment
+
+
+
+---
+
+# 🎯 Key Learnings
+
+* Importance of IAM in AWS security
+* Difference between users, groups, and roles
+* Managing permissions efficiently
+* Authentication and authorization concepts
+* AWS access control best practices
+
+---
+
+# 📖 Reference
+
+AWS Zero to Hero for DevOps Engineers - Day 2 IAM
+
+---
+
+# 👨‍💻 Author
+
+Revanth B L
+Cloud & DevOps Enthusiast
