@@ -1,0 +1,182 @@
+# ☁️ AWS EC2 Hands-On Project
+
+## 📌 Overview
+
+This project focuses on Amazon EC2 (Elastic Compute Cloud), a core AWS service used to launch and manage virtual servers in the cloud.
+
+The project covers launching EC2 instances, configuring security settings, connecting using SSH, and understanding different EC2 instance types and pricing models.
+
+---
+
+# 🚀 Services Used
+
+* Amazon EC2
+* AWS IAM
+* Security Groups
+* Key Pairs
+* AWS Management Console
+
+---
+
+# 🖥️ What is EC2?
+
+Amazon EC2 (Elastic Compute Cloud) provides secure and resizable compute capacity in the cloud.
+
+It allows users to:
+
+* Launch virtual servers
+* Scale infrastructure on demand
+* Deploy applications globally
+* Manage compute resources efficiently
+
+---
+
+# 📚 Concepts Learned
+
+<details>
+  <summary>🧠 EC2 Instance Basics</summary>
+
+* Understanding virtual machines in AWS
+* Learning about AMIs (Amazon Machine Images)
+* Instance lifecycle and states
+* Difference between:
+
+  * Running
+  * Stopped
+  * Terminated instances
+
+</details>
+
+<details>
+  <summary>⚡ EC2 Instance Types</summary>
+
+### General Purpose
+
+Balanced compute, memory, and networking.
+
+### Compute Optimized
+
+High compute power for intensive workloads.
+
+### Memory Optimized
+
+Designed for memory-heavy applications.
+
+### Storage Optimized
+
+Optimized for high-speed storage access.
+
+### Accelerated Computing
+
+Uses GPUs/FPGAs for advanced workloads.
+
+</details>
+
+<details>
+  <summary>🏷️ EC2 Instance Families</summary>
+
+* C → Compute optimized
+* M → General purpose
+* R → Memory optimized
+* T → Burstable performance
+* G/P → GPU instances
+* I → High I/O
+* D → Dense storage
+
+</details>
+
+<details>
+  <summary>💰 EC2 Pricing Models</summary>
+
+### On-Demand
+
+Pay only for usage.
+
+### Reserved Instances
+
+Lower pricing with long-term commitment.
+
+### Spot Instances
+
+Unused AWS capacity at discounted pricing.
+
+</details>
+
+<details>
+  <summary>🔐 Security Groups & Key Pairs</summary>
+
+* Configured inbound and outbound rules
+* Allowed SSH access using port 22
+* Generated key pair for secure login
+* Connected to instance securely using SSH
+
+</details>
+
+---
+
+# 🛠️ Tasks Performed
+
+✅ Launched EC2 Instance
+✅ Selected AMI
+✅ Configured Instance Type
+✅ Created Security Group
+✅ Generated Key Pair
+✅ Connected Using SSH
+✅ Tested Instance Connectivity
+✅ Monitored Instance State
+
+---
+
+# 📷 Project Screenshots
+
+## EC2 Launch Wizard
+
+![Launch Instance](screenshots/01-launch-instance.png)
+
+---
+
+## AMI Selection
+
+![AMI](screenshots/02-select-ami.png)
+
+---
+
+## Security Group Configuration
+
+![Security Group](screenshots/04-security-group.png)
+
+---
+
+## EC2 Instance Running
+
+![Running Instance](screenshots/06-instance-running.png)
+
+---
+
+## SSH Connection
+
+![SSH Access](screenshots/07-ssh-connection.png)
+
+---
+
+# 🎯 Key Learnings
+
+* Understanding cloud virtual servers
+* Managing EC2 instances
+* Configuring secure access
+* Basics of AWS networking
+* SSH authentication workflow
+* Importance of security groups
+
+---
+
+# 📖 Reference
+
+AWS Zero to Hero for DevOps Engineers - EC2
+
+---
+
+# 👨‍💻 Author
+
+Revanth B L
+Cloud & DevOps Enthusiast
