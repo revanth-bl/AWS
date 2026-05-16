@@ -1,0 +1,174 @@
+# 🌍 AWS Route 53 Hands-On Project
+
+## 📌 Overview
+
+This project focuses on AWS Route 53, a scalable Domain Name System (DNS) web service provided by AWS.
+
+The project demonstrates domain management, DNS routing, hosted zones, DNS records, and health checks used for reliable application networking.
+
+---
+
+# 🚀 Services Used
+
+* AWS Route 53
+* Amazon VPC
+* EC2
+* Public & Private Hosted Zones
+
+---
+
+# 🌐 What is Route 53?
+
+Amazon Route 53 is a highly available and scalable DNS service used to route internet traffic to AWS resources and applications.
+
+It helps users:
+
+* Register domain names
+* Manage DNS records
+* Route traffic efficiently
+* Monitor application health
+* Configure public and private DNS
+
+---
+
+# 📚 Concepts Learned
+
+<details>
+  <summary>🌎 DNS Fundamentals</summary>
+
+* Understanding Domain Name System (DNS)
+* Mapping domain names to IP addresses
+* Importance of DNS in networking
+* How internet traffic reaches applications
+
+</details>
+
+<details>
+  <summary>🏢 Domain Registration</summary>
+
+* Learned how companies register domain names
+* Understood domain ownership and management
+* Explored domain purchasing workflow
+
+</details>
+
+<details>
+  <summary>📍 Hosted Zones</summary>
+
+### Public Hosted Zone
+
+* Routes internet traffic publicly
+
+### Private Hosted Zone
+
+* Routes traffic within VPC networks
+
+* Configured hosted zones
+
+* Managed DNS records inside hosted zones
+
+</details>
+
+<details>
+  <summary>📝 DNS Records</summary>
+
+Learned different DNS record types:
+
+* A Record
+* CNAME Record
+* Alias Record
+
+Configured:
+
+* Domain-to-IP mapping
+* Name-based routing
+* DNS resolution setup
+
+</details>
+
+<details>
+  <summary>❤️ Health Checks</summary>
+
+* Configured Route 53 health checks
+* Monitored endpoint availability
+* Learned how Route 53 improves reliability and failover handling
+
+</details>
+
+<details>
+  <summary>🔄 Public vs Private Routing</summary>
+
+* Understood traffic routing inside VPC
+* Explored public and private DNS behavior
+* Learned communication flow between services
+
+</details>
+
+---
+
+# 🛠️ Tasks Performed
+
+✅ Explored Route 53 Dashboard
+✅ Learned DNS Fundamentals
+✅ Registered Domain Concepts
+✅ Created Hosted Zones
+✅ Added DNS Records
+✅ Configured Domain-to-IP Mapping
+✅ Explored Public & Private DNS
+✅ Configured Health Checks
+
+---
+
+# 📷 Project Screenshots
+
+## Route 53 Dashboard
+
+![Route53](screenshots/01-route53-dashboard.png)
+
+---
+
+## Hosted Zone Configuration
+
+![Hosted Zone](screenshots/03-hosted-zone.png)
+
+---
+
+## DNS Record Creation
+
+![DNS Records](screenshots/04-record-creation.png)
+
+---
+
+## Public & Private Routing
+
+![Routing](screenshots/05-public-private-routing.png)
+
+---
+
+## Health Check Configuration
+
+![Health Check](screenshots/06-health-check.png)
+
+---
+
+# 🎯 Key Learnings
+
+* Fundamentals of DNS
+* Domain registration workflow
+* Public vs private hosted zones
+* DNS record management
+* Traffic routing concepts
+* Monitoring application availability using health checks
+
+---
+
+# 📖 Reference
+
+AWS Zero to Hero for DevOps Engineers - Route 53
+
+---
+
+# 👨‍💻 Author
+
+Revanth B L
+Cloud & DevOps Enthusiast
