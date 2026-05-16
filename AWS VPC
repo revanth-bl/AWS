@@ -1,0 +1,191 @@
+# 🌐 AWS VPC Hands-On Project
+
+## 📌 Overview
+
+This project focuses on Amazon VPC (Virtual Private Cloud), which allows users to create a secure and isolated virtual network environment inside AWS.
+
+The project covers VPC creation, subnets, routing, gateways, security configurations, and networking fundamentals used in real-world cloud infrastructures.
+
+---
+
+# 🚀 Services Used
+
+* Amazon VPC
+* EC2
+* Route Tables
+* Internet Gateway
+* Network ACLs
+* Security Groups
+
+---
+
+# 🌍 What is a VPC?
+
+A Virtual Private Cloud (VPC) is a logically isolated virtual network within AWS where cloud resources can be launched securely.
+
+It allows users to:
+
+* Create private cloud environments
+* Configure networking rules
+* Control traffic flow
+* Isolate applications securely
+* Design scalable infrastructures
+
+---
+
+# 📚 Concepts Learned
+
+<details>
+  <summary>🏗️ VPC Basics</summary>
+
+* Understanding virtual networking in AWS
+* Difference between default VPC and custom VPC
+* Importance of isolated cloud infrastructure
+* Defining IP ranges using CIDR blocks
+
+</details>
+
+<details>
+  <summary>🌐 Subnets</summary>
+
+### Public Subnet
+
+* Connected to the internet
+* Used for public-facing resources
+
+### Private Subnet
+
+* No direct internet access
+
+* Used for secure internal resources
+
+* Learned subnet creation inside Availability Zones
+
+* Managed subnet IP ranges
+
+</details>
+
+<details>
+  <summary>🛣️ Route Tables</summary>
+
+* Configured route tables
+* Controlled network traffic routing
+* Associated route tables with subnets
+* Learned default and custom routes
+
+</details>
+
+<details>
+  <summary>🚪 Internet Gateway</summary>
+
+* Attached Internet Gateway to VPC
+* Enabled internet connectivity for public subnets
+* Understood inbound and outbound internet access
+
+</details>
+
+<details>
+  <summary>🛡️ Security Groups & NACLs</summary>
+
+### Security Groups
+
+* Instance-level firewall
+* Stateful traffic filtering
+
+### Network ACLs (NACLs)
+
+* Subnet-level firewall
+
+* Stateless traffic filtering
+
+* Configured inbound and outbound rules
+
+* Controlled network access securely
+
+</details>
+
+<details>
+  <summary>🔄 Networking Components</summary>
+
+Learned about:
+
+* VPC Peering
+* NAT Gateway
+* Transit Gateway
+* VPC Flow Logs
+* VPN Connections
+* Endpoints
+
+</details>
+
+---
+
+# 🛠️ Tasks Performed
+
+✅ Created Custom VPC
+✅ Configured CIDR Block
+✅ Created Public & Private Subnets
+✅ Configured Route Tables
+✅ Attached Internet Gateway
+✅ Configured Security Groups
+✅ Explored NACL Rules
+✅ Tested Network Connectivity
+
+---
+
+# 📷 Project Screenshots
+
+## VPC Creation
+
+![VPC](screenshots/01-create-vpc.png)
+
+---
+
+## Subnet Configuration
+
+![Subnets](screenshots/02-create-subnet.png)
+
+---
+
+## Route Table Setup
+
+![Route Table](screenshots/03-route-table.png)
+
+---
+
+## Internet Gateway Configuration
+
+![Internet Gateway](screenshots/04-internet-gateway.png)
+
+---
+
+## Security Group Rules
+
+![Security Group](screenshots/05-security-group.png)
+
+---
+
+# 🎯 Key Learnings
+
+* Fundamentals of AWS networking
+* Public vs Private subnet architecture
+* Traffic routing inside AWS
+* Network-level vs instance-level security
+* Designing secure cloud infrastructures
+* Importance of controlled connectivity
+
+---
+
+# 📖 Reference
+
+AWS Zero to Hero for DevOps Engineers - VPC
+
+AWS Documentation:
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
+
+---
+
+# 👨‍💻 Author
+
+Revanth B L
+Cloud & DevOps Enthusiast
