@@ -1,0 +1,219 @@
+# 🏗️ Production Grade AWS VPC Architecture Project
+
+## 📌 Overview
+
+This project demonstrates the implementation of a production-grade AWS infrastructure architecture using multiple AWS networking and compute services.
+
+The architecture was designed to achieve:
+
+* High Availability
+* Secure Network Isolation
+* Load Balancing
+* Scalable Infrastructure
+* Secure Access to Private Instances
+
+The project was implemented as part of the AWS Zero to Hero learning series.
+
+---
+
+# 🧱 Architecture Components
+
+* Amazon VPC
+* Public & Private Subnets
+* EC2 Instances
+* Bastion Host
+* NAT Gateway
+* Application Load Balancer (ALB)
+* Auto Scaling Group
+* Security Groups
+* Route Tables
+
+---
+
+# 🌐 Architecture Overview
+
+<details>
+  <summary>🏛️ Infrastructure Design</summary>
+
+The infrastructure was deployed across two Availability Zones for high availability.
+
+### Public Subnets
+
+Hosted:
+
+* Application Load Balancer
+* NAT Gateway
+* Bastion Host
+
+### Private Subnets
+
+Hosted:
+
+* EC2 Application Servers
+
+This architecture ensures that application servers remain secure and inaccessible directly from the internet.
+
+</details>
+
+<details>
+  <summary>🔐 Bastion Host Setup</summary>
+
+* Configured Bastion Host in public subnet
+* Used as secure jump server
+* Connected to private EC2 instances through SSH
+* Transferred `.pem` key securely using SCP command
+
+</details>
+
+<details>
+  <summary>🌍 NAT Gateway</summary>
+
+* Configured NAT Gateway in public subnet
+* Allowed private EC2 instances to access the internet securely
+* Prevented direct inbound internet access to private instances
+
+</details>
+
+<details>
+  <summary>⚖️ Application Load Balancer</summary>
+
+* Configured Application Load Balancer (ALB)
+* Distributed incoming traffic across EC2 instances
+* Connected ALB with target groups
+* Tested traffic routing across healthy targets
+
+</details>
+
+<details>
+  <summary>📈 Auto Scaling Group</summary>
+
+* Configured Auto Scaling Group across multiple Availability Zones
+* Improved application availability and scalability
+* Managed EC2 deployment automatically
+
+</details>
+
+<details>
+  <summary>🛡️ Security & Networking</summary>
+
+Configured:
+
+* Security Groups
+* Route Tables
+* Public & Private Subnets
+* Internet Gateway
+* Network Access Rules
+
+Implemented secure communication between infrastructure components.
+
+</details>
+
+---
+
+# 🛠️ Tasks Performed
+
+✅ Created Custom VPC
+✅ Configured Public & Private Subnets
+✅ Attached Internet Gateway
+✅ Configured NAT Gateway
+✅ Created Bastion Host
+✅ Launched Private EC2 Instances
+✅ Configured Auto Scaling Group
+✅ Configured Application Load Balancer
+✅ Connected Target Groups
+✅ Tested Health Checks
+✅ Deployed Python HTTP Application
+✅ Verified Load Balancing
+
+---
+
+# 📷 Project Screenshots
+
+## Architecture Overview
+
+
+
+---
+
+## Public & Private Subnets
+
+
+
+---
+
+## NAT Gateway Setup
+
+
+---
+
+## Bastion Host Configuration
+
+
+
+---
+
+## Auto Scaling Group
+
+
+
+---
+
+## Application Load Balancer
+
+
+
+---
+
+## Health Check Validation
+
+
+
+---
+
+# 🧪 Troubleshooting & Validation
+
+<details>
+  <summary>⚠️ Common Issues Encountered</summary>
+
+### Security Group Misconfiguration
+
+* Port 80 access issues
+* SSH access restrictions
+
+### Health Check Failures
+
+* Incorrect target group configurations
+* Application not responding properly
+
+### Connectivity Validation
+
+* Tested Bastion to Private EC2 SSH access
+* Verified internet access through NAT Gateway
+
+</details>
+
+---
+
+# 🎯 Key Learnings
+
+* Production-grade AWS architecture design
+* Public vs Private subnet deployment
+* Secure SSH access using Bastion Host
+* Load balancing concepts
+* High availability architecture
+* Auto Scaling fundamentals
+* Traffic flow inside AWS networking
+* Infrastructure security best practices
+
+---
+
+# 📖 Reference
+
+AWS Zero to Hero for DevOps Engineers - Day 7 Project
+
+---
+
+# 👨‍💻 Author
+
+Revanth B L
+Cloud & DevOps Enthusiast
